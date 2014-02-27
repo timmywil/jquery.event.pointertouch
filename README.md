@@ -1,5 +1,4 @@
 # jquery.event.pointertouch
-[![Build Status](https://travis-ci.org/timmywil/jquery.event.pointertouch.png?branch=master)](https://travis-ci.org/timmywil/jquery.event.pointertouch)
 
 ## Loading jquery.event.pointertouch
 

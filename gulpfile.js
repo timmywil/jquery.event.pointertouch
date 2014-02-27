@@ -5,6 +5,7 @@ var gulp = require('gulp');
 // Load plugins
 var $ = require('gulp-load-plugins')();
 
+var pkg = require('./package.json');
 var banner = [
 '/**',
 ' * <%= pkg.name %>',
@@ -29,12 +30,19 @@ gulp.task('clean', ['scripts'], function () {
 // Add banner
 gulp.task('dist', ['clean'], function() {
 	gulp.src('pointertouch.js')
-		.pipe($.header(banner, { pkg: require('./package.json') }))
+		.pipe($.header(banner, { pkg: pkg }))
 		.pipe($.rename('jquery.event.pointertouch.js'))
 		.pipe(gulp.dest('./dist'))
 		.pipe($.uglify({ preserveComments: 'some' }))
 		.pipe($.rename('jquery.event.pointertouch.min.js'))
 		.pipe(gulp.dest('./dist'));
+});
+
+// Update JSON versions
+gulp.task('version', function() {
+	gulp.src(['bower.json', 'pointertouch.jquery.json'])
+		.pipe($.replace(/("version":\s*").*?(\s*")/, '$1' + pkg.version + '$2'))
+		.pipe(gulp.dest(__dirname));
 });
 
 // Size

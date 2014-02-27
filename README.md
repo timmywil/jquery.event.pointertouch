@@ -66,6 +66,7 @@ See the [CONTRIBUTING.md](https://github.com/timmywil/jquery.event.pointertouch/
 
 ## Release History
 
+**0.0.2** (*2/27/14*) Fix jQuery plugin registry manifest JSON
 **0.0.1** (*2/27/14*) First release
 
 ## License

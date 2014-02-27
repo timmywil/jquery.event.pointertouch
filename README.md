@@ -43,8 +43,7 @@ define(['jquery', 'plugins/jquery.event.pointertouch'], function($, names) {
 ### The pointertouch export
 
 ### `names`
-Type: *Object*
-
+Type: *Object*  
 This is a convenience object for binding your own pointer/touch/mouse events.
 
 **Properties:**
@@ -66,7 +65,7 @@ See the [CONTRIBUTING.md](https://github.com/timmywil/jquery.event.pointertouch/
 
 ## Release History
 
-**0.0.3** (*2/27/14*) Fix jQuery plugin registry manifest JSON
+**0.0.3** (*2/27/14*) Fix jQuery plugin registry manifest JSON  
 **0.0.1** (*2/27/14*) First release
 
 ## License

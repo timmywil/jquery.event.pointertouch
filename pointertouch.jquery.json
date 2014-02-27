@@ -1,0 +1,32 @@
+{
+  "name": "jquery.event.pointertouch",
+  "title": "jQuery Pointer and Touch Events",
+  "description": "Lift touch and pointer event properties to the jQuery event object",
+  "version": "0.0.0",
+  "homepage": "https://github.com/timmywil/jquery.event.pointertouch",
+  "author": {
+    "name": "Timmy Willison",
+    "url": "https://github.com/timmywil"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/timmywil/jquery.event.pointertouch.git"
+  },
+  "bugs": "https://github.com/timmywil/jquery.event.pointertouch/issues",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "dependencies": {
+    "jquery": ">=1.9.0"
+  },
+  "keywords": [
+    "jquery-plugin",
+    "pointer",
+    "touch",
+    "event",
+    "events"
+  ]
+}

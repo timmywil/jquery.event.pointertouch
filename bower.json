@@ -1,0 +1,19 @@
+{
+  "name": "jquery.event.pointertouch",
+  "version": "0.0.0",
+  "main": "dist/jquery.event.pointertouch.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "test",
+    "package.json",
+    "gulpfile.js",
+    "pointertouch.js"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "jquery": "~1.11.0",
+    "mocha": "~1.17.1",
+    "chai": "~1.9.0"
+  }
+}

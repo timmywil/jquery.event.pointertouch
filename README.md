@@ -66,7 +66,7 @@ See the [CONTRIBUTING.md](https://github.com/timmywil/jquery.event.pointertouch/
 
 ## Release History
 
-**NOT YET RELEASED**
+**0.0.1** (*2/27/14*) First release
 
 ## License
 Copyright (c) 2014 Timmy Willison. Licensed under the MIT license.

@@ -56,6 +56,10 @@ define(['jquery', 'plugins/jquery.event.pointertouch'], function($, names) {
 	// "mousemove touchmove" or "pointermove"
 	names.move;
 });
+
+// Note that the events export is available at...
+$.pointertouch;
+// => { down: '...', up: '...', move: '...' };
 ```
 
 ## Contributing

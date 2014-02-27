@@ -57,5 +57,7 @@
 		$.event.fixHooks[ touch ] = hook;
 	});
 
+	$.pointertouch = events;
+
 	return events;
 }));

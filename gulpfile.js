@@ -42,7 +42,9 @@ gulp.task('dist', ['clean'], function() {
 gulp.task('version', function() {
 	gulp.src(['bower.json', 'pointertouch.jquery.json'])
 		.pipe($.replace(/("version":\s*").*?(\s*")/, '$1' + pkg.version + '$2'))
-		.pipe(gulp.dest(__dirname));
+		.pipe(gulp.dest(__dirname))
+		.pipe($.jsonlint())
+		.pipe($.jsonlint.reporter());
 });
 
 // Size

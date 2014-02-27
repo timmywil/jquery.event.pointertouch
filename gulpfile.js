@@ -18,7 +18,7 @@ var banner = [
 // Scripts
 gulp.task('scripts', function () {
 	return gulp.src('*.js')
-		.pipe($.jshint())
+		.pipe($.jshint('.jshintrc'))
 		.pipe($.jshint.reporter('default'));
 });
 
@@ -29,7 +29,7 @@ gulp.task('clean', ['scripts'], function () {
 
 // Add banner
 gulp.task('dist', ['clean'], function() {
-	gulp.src('pointertouch.js')
+	return gulp.src('pointertouch.js')
 		.pipe($.header(banner, { pkg: pkg }))
 		.pipe($.rename('jquery.event.pointertouch.js'))
 		.pipe(gulp.dest('./dist'))
@@ -40,7 +40,7 @@ gulp.task('dist', ['clean'], function() {
 
 // Update JSON versions
 gulp.task('version', function() {
-	gulp.src(['bower.json', 'event.pointertouch.jquery.json'])
+	return gulp.src(['bower.json', 'event.pointertouch.jquery.json'])
 		.pipe($.replace(/("version":\s*")[^"]+(")/, '$1' + pkg.version + '$2'))
 		.pipe(gulp.dest(__dirname))
 		.pipe($.jsonlint())

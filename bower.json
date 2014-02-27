@@ -1,6 +1,6 @@
 {
   "name": "jquery.event.pointertouch",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "dist/jquery.event.pointertouch.js",
   "ignore": [
     "**/.*",

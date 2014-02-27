@@ -40,8 +40,8 @@ gulp.task('dist', ['clean'], function() {
 
 // Update JSON versions
 gulp.task('version', function() {
-	gulp.src(['bower.json', 'pointertouch.jquery.json'])
-		.pipe($.replace(/("version":\s*").*?(\s*")/, '$1' + pkg.version + '$2'))
+	gulp.src(['bower.json', 'event.pointertouch.jquery.json'])
+		.pipe($.replace(/("version":\s*")[^"]+(")/, '$1' + pkg.version + '$2'))
 		.pipe(gulp.dest(__dirname))
 		.pipe($.jsonlint())
 		.pipe($.jsonlint.reporter());

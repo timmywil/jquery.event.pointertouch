@@ -69,6 +69,7 @@ See the [CONTRIBUTING.md](https://github.com/timmywil/jquery.event.pointertouch/
 
 ## Release History
 
+**0.0.6** (*2/27/14*) Expose event names object on jQuery
 **0.0.5** (*2/27/14*) First real release
 
 ## License

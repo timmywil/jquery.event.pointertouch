@@ -1,6 +1,6 @@
 {
   "name": "jquery.event.pointertouch",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "main": "dist/jquery.panzoom.js",
   "description": "Lift touch and pointer event properties to the jQuery event object",
   "license": "MIT",

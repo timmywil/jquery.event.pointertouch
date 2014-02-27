@@ -2,7 +2,7 @@
   "name": "event.pointertouch",
   "title": "jQuery Pointer and Touch Events",
   "description": "Lift touch and pointer event properties to the jQuery event object",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "homepage": "https://github.com/timmywil/jquery.event.pointertouch",
   "author": {
     "name": "Timmy Willison",

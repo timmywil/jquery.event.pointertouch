@@ -39,7 +39,7 @@ gulp.task('dist', ['clean'], function() {
 });
 
 // Update JSON versions
-gulp.task('version', function() {
+gulp.task('version', ['dist'], function() {
 	return gulp.src(['bower.json', 'event.pointertouch.jquery.json'])
 		.pipe($.replace(/("version":\s*")[^"]+(")/, '$1' + pkg.version + '$2'))
 		.pipe(gulp.dest(__dirname))

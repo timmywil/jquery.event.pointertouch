@@ -2,8 +2,8 @@
 
 ## Loading jquery.event.pointertouch
 
-Panzoom can be included with your scripts at the end of the body,
-but Panzoom supports AMD for javascript module love.
+Pointertouch can be included with your scripts at the end of the body,
+but Pointertouch supports AMD for javascript module love.
 
 With script tags:
 

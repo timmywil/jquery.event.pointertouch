@@ -2,7 +2,7 @@
 
 > A short (0.5kb) jQuery plugin for working with pointer and touch events.
 
-jQuery's event system does not provide event properties related to pointer or touch events on jQuery event objects.  
+jQuery's event system does not provide event properties related to pointer or touch events on jQuery event objects.
 With this plugin, bind to events like `pointerdown` and `touchstart` and access properties such as `pageX`, `pageY`, and `touches`.
 
 ## Loading jquery.event.pointertouch

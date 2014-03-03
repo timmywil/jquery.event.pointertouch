@@ -16,13 +16,14 @@
     "gulp-autoprefixer": "~0.0.6",
     "gulp-jshint": "~1.4.0",
     "gulp-clean": "~0.2.4",
-    "gulp-size": "~0.1.2",
     "gulp-header": "~1.0.2",
     "gulp-connect": "~1.0.5",
     "gulp-rename": "~1.1.0",
     "gulp-uglify": "~0.2.1",
     "gulp-replace": "~0.2.0",
-    "gulp-jsonlint": "0.0.3"
+    "gulp-jsonlint": "0.0.3",
+    "gulp-gzip": "0.0.5",
+    "gulp-micro": "~0.1.2"
   },
   "engines": {
     "node": ">=0.10.0"

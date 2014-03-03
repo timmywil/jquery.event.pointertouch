@@ -29,7 +29,7 @@ gulp.task('clean', ['scripts'], function () {
 
 // Add banner
 gulp.task('dist', ['clean'], function() {
-	return gulp.src('pointertouch.js')
+	gulp.src('pointertouch.js')
 		.pipe($.header(banner, { pkg: pkg }))
 		.pipe($.rename('jquery.event.pointertouch.js'))
 		.pipe(gulp.dest('./dist'))
@@ -47,10 +47,10 @@ gulp.task('version', ['dist'], function() {
 		.pipe($.jsonlint.reporter());
 });
 
-// Size
 gulp.task('size', function() {
-	return gulp.src('./dist/jquery.event.pointertouch.min.js')
-		.pipe($.size());
+	gulp.src('./dist/jquery.event.pointertouch.min.js')
+		.pipe($.gzip())
+		.pipe($.micro({ limit: 540 }));
 });
 
 // Default task

@@ -53,9 +53,8 @@
 				});
 			});
 		} else {
-			list = list.slice(2);
 			// Touch events
-			$.each(list, function(i, name) {
+			$.each(list.slice(2), function(i, name) {
 				name = 'touch' + (touchReplace[name] || name);
 				describe(name, function() {
 					var touchEvent = $.event.fix(createEvent(name));

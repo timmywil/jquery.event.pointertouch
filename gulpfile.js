@@ -49,7 +49,7 @@ gulp.task('version', ['dist'], function() {
 
 // Size
 gulp.task('size', function() {
-	return gulp.src('./dist/jquery.event.pointertouch.js')
+	return gulp.src('./dist/jquery.event.pointertouch.min.js')
 		.pipe($.size());
 });
 

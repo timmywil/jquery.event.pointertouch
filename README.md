@@ -34,7 +34,7 @@ $elem.on('pointerdown', function(e) {
 // to know to which events to bind
 // See "The pointertouch export" below for more info on `"names"`
 define(['jquery', 'plugins/jquery.event.pointertouch'], function($, names) {
-	$elem.on(events.down, function(e) {
+	$elem.on(names.down, function(e) {
 		console.log(e.type);
 	});
 });

@@ -53,7 +53,6 @@
 			return event;
 		};
 
-		// Take off 'over' and 'out' when attaching touch hooks
 		$.each(list, function( i, name ) {
 			// No equivalent touch events for over and out
 			if (i < 2) {

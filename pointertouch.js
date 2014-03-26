@@ -1,15 +1,15 @@
-(function( global, factory ) {
+(function(global, factory) {
 	// AMD
-	if ( typeof define === 'function' && define.amd ) {
-		define( [ 'jquery' ], factory );
+	if (typeof define === 'function' && define.amd) {
+		define(['jquery'], function(jQuery) { return factory(global, jQuery); });
 	// CommonJS/Browserify
-	} else if ( typeof exports === 'object' ) {
-		factory( require('jquery') );
+	} else if (typeof exports === 'object') {
+		factory(global, require('jquery'));
 	// Global
 	} else {
-		factory( global.jQuery );
+		factory(global, global.jQuery);
 	}
-}( typeof window !== 'undefined' ? window : this, function( $ ) {
+}(typeof window !== 'undefined' ? window : this, function(window, $) {
 	'use strict';
 
 	// Common properties to lift for touch or pointer events

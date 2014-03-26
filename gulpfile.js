@@ -4,6 +4,7 @@ var gulp = require('gulp');
 
 // Load plugins
 var $ = require('gulp-load-plugins')();
+$.connect = require('gulp-connect');
 
 var pkg = require('./package.json');
 var banner = [

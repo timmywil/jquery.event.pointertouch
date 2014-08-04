@@ -74,6 +74,7 @@ See the [CONTRIBUTING.md](https://github.com/timmywil/jquery.event.pointertouch/
 
 ## Release History
 
+**0.1.3** (#8/4/14*) Update node dependencies
 **0.1.2** (*3/26/14*) Pass along window to the factory.
 **0.1.1** (*3/3/14*) Leave the existing mouseHook unaffected.
 **0.1.0** (*3/3/14*) First release

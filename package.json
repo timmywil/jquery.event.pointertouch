@@ -1,6 +1,6 @@
 {
   "name": "jquery.event.pointertouch",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "main": "dist/jquery.event.pointertouch.js",
   "description": "Lift touch and pointer event properties to the jQuery event object",
   "license": "MIT",

@@ -51,7 +51,7 @@ gulp.task('version', ['dist'], function() {
 gulp.task('size', function() {
 	gulp.src('./dist/jquery.event.pointertouch.min.js')
 		.pipe($.gzip())
-		.pipe($.micro({ limit: 540 }));
+		.pipe($.micro({ limit: 550 }));
 });
 
 // Default task

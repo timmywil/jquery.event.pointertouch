@@ -1,7 +1,7 @@
 /**
  * jquery.event.pointertouch
  * Lift touch and pointer event properties to the jQuery event object
- * @version v0.1.2
+ * @version v0.1.3
  * @license MIT
  */
 (function(global, factory) {

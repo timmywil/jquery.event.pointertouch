@@ -1,7 +1,7 @@
 {
   "name": "jquery.event.pointertouch",
   "version": "0.1.2",
-  "main": "dist/jquery.panzoom.js",
+  "main": "dist/jquery.event.pointertouch.js",
   "description": "Lift touch and pointer event properties to the jQuery event object",
   "license": "MIT",
   "repository": {
@@ -10,19 +10,19 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "gulp": "~3.5.6",
-    "gulp-load-plugins": "~0.4.0",
-    "gulp-util": "~2.2.9",
-    "gulp-jshint": "~1.5.1",
-    "gulp-clean": "~0.2.4",
-    "gulp-header": "~1.0.2",
-    "gulp-connect": "~1.0.10",
-    "gulp-rename": "~1.2.0",
-    "gulp-uglify": "~0.2.1",
-    "gulp-replace": "~0.2.0",
-    "gulp-jsonlint": "0.0.3",
+    "gulp": "^3.5.6",
+    "gulp-connect": "^1.0.10",
     "gulp-gzip": "0.0.5",
-    "gulp-micro": "~0.1.2"
+    "gulp-header": "^1.0.2",
+    "gulp-jshint": "^1.5.1",
+    "gulp-jsonlint": "0.0.3",
+    "gulp-load-plugins": "^0.4.0",
+    "gulp-micro": "^0.1.2",
+    "gulp-rename": "^1.2.0",
+    "gulp-replace": "^0.2.0",
+    "gulp-rimraf": "^0.1.0",
+    "gulp-uglify": "^0.2.1",
+    "gulp-util": "^2.2.9"
   },
   "engines": {
     "node": ">=0.10.0"

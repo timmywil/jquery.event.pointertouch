@@ -25,7 +25,7 @@ gulp.task('scripts', function () {
 
 // Clean
 gulp.task('clean', ['scripts'], function () {
-	return gulp.src(['dist'], {read: false}).pipe($.clean());
+	return gulp.src(['dist'], {read: false}).pipe($.rimraf());
 });
 
 // Add banner

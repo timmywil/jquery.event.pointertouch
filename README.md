@@ -1,5 +1,7 @@
 # jquery.event.pointertouch
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/timmywil/jquery.event.pointertouch.svg)](https://greenkeeper.io/)
+
 > A short (0.5kb) jQuery plugin for working with pointer and touch events.
 
 jQuery's event system does not provide event properties related to pointer or touch events on jQuery event objects.
